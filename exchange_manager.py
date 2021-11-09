@@ -44,7 +44,7 @@ class ExchangeManager:
             self.cursor.execute(sql_item)
 
     def get_databse_table_list(self):
-        sql = "SELECT relname FROM pg_stat_user_tables"
+        sql = "SELECT relname FROM pg_stat_user_tables;"
         res = self.cursor.execute(sql)
         tables = res["data"].fetchall()
         names = [item[0] for item in tables]
