@@ -1,0 +1,20 @@
+{
+  "binance": {
+    "SPOT_URL": "https://api.binance.com/api/v3/klines?interval=1m&limit=1000&symbol={}",
+    "FUTURE_URL": "https://fapi.binance.com/fapi/v1/klines?interval=1m&limit=1500&symbol={}",
+    "SYMBOLS": [
+      {
+        "symbol": "BTCUSDT",
+        "assert": "btc",
+        "to": "usd",
+        "type": "perp"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "assert": "eth",
+        "to": "usd",
+        "type": "perp"
+      }
+    ]
+  }
+}
