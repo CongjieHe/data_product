@@ -32,21 +32,20 @@ class ExchangeBase(metaclass=ABCMeta):
         self.current_hour_timestamp = DeliveryDate.get_current_hour_start_timestamp()
 
     def kline_job_start(self):
-        def kline_job_start(self):
-            logger_info.debug("%s threading create success...." % self.name)
-            try:
-                start_time = time.time()
-                symbols = self.exchange_config["SYMBOLS"]
-                self.get_data_from_exchange(symbol_lst=symbols)
-                if len(self.failed_lst) != 0 and REPULL_DATA is True:
-                    self.re_pull_data_from_exchange()
-                end_time = time.time()
-                logger_info.info(
-                    "finish %s kline data job in %s second,%s success, %s failed" % (
-                        self.name, end_time - start_time, len(self.success_lst), len(self.failed_lst)))
-            except Exception:
-                exstr = traceback.format_exc()
-                logger_error.error(exstr)
+        logger_info.debug("%s threading create success...." % self.name)
+        try:
+            start_time = time.time()
+            symbols = self.exchange_config["SYMBOLS"]
+            self.get_data_from_exchange(symbol_lst=symbols)
+            if len(self.failed_lst) != 0 and REPULL_DATA is True:
+                self.re_pull_data_from_exchange()
+            end_time = time.time()
+            logger_info.info(
+                "finish %s kline data job in %s second,%s success, %s failed" % (
+                    self.name, end_time - start_time, len(self.success_lst), len(self.failed_lst)))
+        except Exception:
+            exstr = traceback.format_exc()
+            logger_error.error(exstr)
 
     @staticmethod
     def get_db_cursor():

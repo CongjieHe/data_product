@@ -38,7 +38,7 @@ class Binance(ExchangeBase):
             url = self.exchange_config["FUTURE_URL"]
             url = url.format(symbol["symbol"])
         logger_info.debug(url)
-        self.data_type = "%s|%s%s|%s" % (self.name, symbol["assert"], symbol["to"], symbol["type"])
+        self.data_type = "%s|%s|%s" % (symbol["assert"], symbol["to"], symbol["type"])
 
         try:
             res = requests.get(url, headers=self.headers, timeout=self.time_out)

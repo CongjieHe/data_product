@@ -15,7 +15,7 @@ log_file_path = os.path.join(os.getcwd(), 'config', 'logger.conf')
 # print(log_file_path)
 logging.config.fileConfig(log_file_path)
 logger_info = logging.getLogger("infoLogger")
-logger_info.setLevel(logging.DEGUG)
+logger_info.setLevel(logging.DEBUG)
 logger_error = logging.getLogger("errorLogger")
 logger_error.setLevel(logging.ERROR)
 

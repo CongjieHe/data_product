@@ -36,11 +36,14 @@ class KlineService:
         # TODO:need to improve use trade data to trans kline design
         # 不同数据源，采集频率不一样
         schedule.every().hour.do(self.kline_data_start_from_api)
-        # self.kline_data_start_from_api()
+        self.first_begin()
 
         while True:
             schedule.run_pending()
             time.sleep(1)
+
+    def first_begin(self):
+        self.kline_data_start_from_api()
 
     @staticmethod
     def _heart_beat_send():
