@@ -5,18 +5,24 @@
 # @LastChange : 2021/11/10
 
 import threading
+import sys, os
 import time
 import datetime
 import schedule
 import pandas as pd
+from sqlalchemy import create_engine
 
 import matplotlib
 import matplotlib.pyplot as plt
 
+sys.path.append(os.getcwd())
+
 from config import *
-from exchange_manager import ExchangeManager
 from utils.db_module import DbModule
+from config.db_config import db_setting
+from exchange_manager import ExchangeManager
 from utils.mail_center import EmailCenter
+from config.exchange_config import exchanges
 
 matplotlib.use("Agg")
 
@@ -33,6 +39,7 @@ class KlineService:
         logger_info.info("Schedule manager start success...")
         schedule.every(60).seconds.do(self._heart_beat_send)
         schedule.every().day.at("10:30").do(self.calculate_every_symbol_amount_per_day)
+        schedule.every().day.at("00:30").do(self.csv_to_disk)
         # TODO:need to improve use trade data to trans kline design
         # 不同数据源，采集频率不一样
         schedule.every().hour.do(self.kline_data_start_from_api)
@@ -120,3 +127,33 @@ class KlineService:
             logger_error.error("something wrong happened")
             logger_error.error(e)
         return True
+
+    @staticmethod
+    def csv_to_disk():
+        outfolder = os.path.join(os.getcwd(), 'static', 'output_csv')
+        db_config = db_setting[RUN_ENV]
+        remote_engine = create_engine(f'postgresql://{db_config["user"]}:{db_config["pwd"]}@{db_config["ip"]}:{db_config["port"]}/{db_config["db"]}')
+        for [exchange_name, enablement] in exchanges.items():
+            if enablement is True:
+                exchange_datas = EXCHANGE_LIST[exchange_name]
+                for symbol in exchange_datas['SYMBOLS']:
+                    info = "%s|%s|%s" % (symbol["assert"], symbol["to"], symbol["type"])
+                    # info = "%s|%s%s|%s" % (exchange_name, symbol["assert"], symbol["to"], symbol["type"])
+                    today = datetime.datetime.now()
+                    yesterday = today - datetime.timedelta(days=1)
+                    today = today.strftime("%Y-%m-%d")
+                    yesterday = yesterday.strftime("%Y-%m-%d")
+                    outfile_path = os.path.join(outfolder, yesterday, exchange_name)
+                    if not os.path.exists(outfile_path):
+                        os.makedirs(outfile_path)
+                    sql = f"SELECT * FROM {exchange_name} WHERE info=\'{info}\' and time>=\'{yesterday}\' and time<\'{today}\';"
+                    with remote_engine.connect() as con:
+                        res = pd.read_sql(sql, con)
+                        res.drop(['id'], axis=1, inplace=True)
+                        res.to_csv(os.path.join(outfile_path, info+'.csv'), index=False)
+                        logger_info.info(f"Dump Day:{yesterday} Exchange:{exchange_name} Info:{info} Count:{str(res.shape[0])} to disk as csv success")
+                    
+
+
+if __name__ == '__main__':
+    KlineService.csv_to_disk()

@@ -28,7 +28,7 @@ argv = sys.argv[1:]
 
 # 默认参数
 RUN_ENV = "dev"
-CURRENT_EXCHANGE = 'binance'
+CURRENT_EXCHANGE = 'ALL'
 WRITE_TO_DB = True
 REPULL_DATA = True
 
