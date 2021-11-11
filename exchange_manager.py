@@ -26,6 +26,7 @@ class ExchangeManager:
     def start_from_api(self):
         logger_info.info("Create Exchagne Manager instance success And start kline Job from api datasource...")
         self.exchanges_pre_handle()
+        self.kline_job_start(self.exchange_dict_of_api)
 
     @staticmethod
     def exchanges_pre_handle():
@@ -49,3 +50,15 @@ class ExchangeManager:
         tables = res["data"].fetchall()
         names = [item[0] for item in tables]
         return names
+
+    def kline_job_start(self, exchange_list):
+        for exchange_name in exchange_list:
+            try:
+                # TODO:use threading pool to finish this job
+                threading.Thread(
+                    target=exchange_list[exchange_name].kline_job_start, args=()).start()
+            except Exception as e:
+                logger_error.error(
+                    "Create %s Instance or start threading failed" % exchange_name)
+                logger_error.error(e)
+        self.cursor.close()

@@ -13,11 +13,16 @@ from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import unittest
+import os
+import sys
+
+sys.path.append(os.getcwd())
+
 from config import *
 from config.email_config import MAIL_HOST, MAIL_PORT, MAIL_USER, MAIL_PASS, MAIL_RECEIVER
 
-socket.socket = socks.socksocket
-socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 10808)
+# socket.socket = socks.socksocket
+# socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 10808)
 
 
 class EmailCenter:

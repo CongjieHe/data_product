@@ -22,8 +22,7 @@ CREATE TABLE "public"."@exchangeName" (
   "close" float8,
   "volume" float8,
   "info" varchar COLLATE "pg_catalog"."default" NOT NULL
-)
-;
+);
 
 /*
 Create Primary Key structure for table

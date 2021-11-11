@@ -28,17 +28,15 @@ class KlineService:
     def start(self):
         logger_info.info("Create kline service instance success and Start Kline Service...")
         self._schedule_manager_start()
-        self._heart_beat_send()
 
     def _schedule_manager_start(self):
         logger_info.info("Schedule manager start success...")
         schedule.every(60).seconds.do(self._heart_beat_send)
-
         schedule.every().day.at("10:30").do(self.calculate_every_symbol_amount_per_day)
         # TODO:need to improve use trade data to trans kline design
         # 不同数据源，采集频率不一样
         schedule.every().hour.do(self.kline_data_start_from_api)
-        self.kline_data_start_from_api()
+        # self.kline_data_start_from_api()
 
         while True:
             schedule.run_pending()

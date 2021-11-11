@@ -5,7 +5,7 @@
 # @LastChange : 2021/11/10
 
 from config import *
-from kline_service import KlineService
+from  service.kline_service import KlineService
 
 if __name__ == '__main__':
     logger_info.info("System start!")

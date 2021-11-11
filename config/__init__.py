@@ -11,10 +11,13 @@ import sys
 import json
 
 # logger config
-log_file_path = os.path.join(os.path.dirname(os.getcwd()), 'logger.conf')
+log_file_path = os.path.join(os.getcwd(), 'config', 'logger.conf')
+# print(log_file_path)
 logging.config.fileConfig(log_file_path)
 logger_info = logging.getLogger("infoLogger")
+logger_info.setLevel(logging.DEGUG)
 logger_error = logging.getLogger("errorLogger")
+logger_error.setLevel(logging.ERROR)
 
 # exchange config
 symbol_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'symbol.json')
@@ -26,7 +29,7 @@ argv = sys.argv[1:]
 # 默认参数
 RUN_ENV = "dev"
 CURRENT_EXCHANGE = 'binance'
-WRITE_TO_DB = False
+WRITE_TO_DB = True
 REPULL_DATA = True
 
 try:
