@@ -70,9 +70,8 @@ class KlineService:
         for exchange in EXCHANGE_LIST:
             for item in EXCHANGE_LIST[exchange]["SYMBOLS"]:
                 single = {}
-                symbol = item["assert"] + item["to"]
                 contract_type = item["type"]
-                info = exchange + "_" + symbol + "_" + contract_type.replace("_", "")
+                info = "%s|%s|%s" % (item["assert"], item["to"], item["type"])
                 sql = """SELECT count(*) FROM %s WHERE info = '%s' AND "time" BETWEEN '%s 00:00:00' AND '%s 23:59:59'""" % (
                     exchange, info, yesterday, yesterday)
                 result = client.execute(sql)
@@ -82,7 +81,7 @@ class KlineService:
                 else:
                     amount = 0
                 single["exchange"] = exchange
-                single["symbol"] = symbol
+                single["symbol"] = item["assert"] + item["to"]
                 single["contract_type"] = contract_type
                 single["date"] = yesterday
                 single["amount"] = amount

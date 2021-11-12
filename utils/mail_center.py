@@ -59,8 +59,8 @@ class EmailCenter:
         message = MIMEText(html, "html", "utf-8")
         msg.attach(message)
         try:
-            smtpObj = smtplib.SMTP_SSL(MAIL_HOST)
-            smtpObj.connect('pop.exmail.qq.com', 465)
+            smtpObj = smtplib.SMTP_SSL(self.mail_host)
+            smtpObj.connect(self.mail_host, self.mail_port)
             smtpObj.login(self.mail_user, self.mail_pass)
             smtpObj.sendmail(self.mail_user, self.mail_rec, msg.as_string())
         except smtplib.SMTPException as e:
