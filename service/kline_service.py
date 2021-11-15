@@ -73,7 +73,7 @@ class KlineService:
                 single = {}
                 contract_type = item["type"]
                 info = "%s|%s|%s" % (item["assert"], item["to"], item["type"])
-                sql = f"SELECT count(*) FROM {exchange} WHERE info = \'{info}\' AND time BETWEEN \'{yesterday_str} 00:00:00\' AND \'{yesterday_str} 23:59:59\';" 
+                sql = f"SELECT count(*) FROM {exchange} WHERE info = \'{info}\' AND time BETWEEN \'{yesterday_str} 00:00:00\' AND \'{yesterday_str} 23:59:59\';"
                 result = client.execute(sql)
                 if result["result"]:
                     result = result["data"].fetchone()
@@ -131,12 +131,14 @@ class KlineService:
     def csv_to_disk():
         outfolder = os.path.join(os.getcwd(), 'static', 'output_csv')
         db_config = db_setting[RUN_ENV]
-        remote_engine = create_engine(f'postgresql://{db_config["user"]}:{db_config["pwd"]}@{db_config["ip"]}:{db_config["port"]}/{db_config["db"]}')
+        remote_engine = create_engine(
+            f'postgresql://{db_config["user"]}:{db_config["pwd"]}@{db_config["ip"]}:{db_config["port"]}/{db_config["db"]}')
         for [exchange_name, enablement] in exchanges.items():
             if enablement is True:
                 exchange_datas = EXCHANGE_LIST[exchange_name]
                 for symbol in exchange_datas['SYMBOLS']:
                     info = "%s|%s|%s" % (symbol["assert"], symbol["to"], symbol["type"])
+                    path_info = "%s_%s_%s" % (symbol["assert"], symbol["to"], symbol["type"])
                     # info = "%s|%s%s|%s" % (exchange_name, symbol["assert"], symbol["to"], symbol["type"])
                     today = datetime.datetime.now()
                     yesterday = today - datetime.timedelta(days=1)
@@ -145,13 +147,13 @@ class KlineService:
                     outfile_path = os.path.join(outfolder, yesterday, exchange_name)
                     if not os.path.exists(outfile_path):
                         os.makedirs(outfile_path)
-                    sql = f"SELECT * FROM {exchange_name} WHERE info=\'{info}\' and time>=\'{yesterday}\' and time<\'{today}\';"
+                    sql = f"SELECT * FROM {exchange_name} WHERE info=\'{info}\' and time>=\'{yesterday}\' and time<\'{today}\'; "
                     with remote_engine.connect() as con:
                         res = pd.read_sql(sql, con)
                         res.drop(['id'], axis=1, inplace=True)
-                        res.to_csv(os.path.join(outfile_path, info+'.csv'), index=False)
-                        logger_info.info(f"Dump Day:{yesterday} Exchange:{exchange_name} Info:{info} Count:{str(res.shape[0])} to disk as csv success")
-                    
+                        res.to_csv(os.path.join(outfile_path, path_info + '.csv'), index=False)
+                        logger_info.info(
+                            f"Dump Day:{yesterday} Exchange:{exchange_name} Info:{info} Count:{str(res.shape[0])} to disk as csv success")
 
 
 if __name__ == '__main__':
