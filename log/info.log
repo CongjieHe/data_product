@@ -1,785 +1,527 @@
-[INFO][Fri, 12 Nov 2021 02:12:09][main_app.py][line:11]: System start!
-[INFO][Fri, 12 Nov 2021 02:12:09][kline_service.py][line:35]: Create kline service instance success and Start Kline Service...
-[INFO][Fri, 12 Nov 2021 02:12:09][kline_service.py][line:39]: Schedule manager start success...
-[INFO][Fri, 12 Nov 2021 02:12:09][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 02:12:09][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 02:12:09][__init__.py][line:130]: write 1499 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 02:12:11][__init__.py][line:130]: write 1499 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 02:12:12][__init__.py][line:45]: finish binance kline data job in 2.56026291847229 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 02:13:09][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:14:09][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:15:09][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:16:09][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:17:09][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:18:09][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:19:09][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:20:09][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:21:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:22:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:23:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:24:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:25:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:26:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:27:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:28:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:29:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:30:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:31:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:32:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:33:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:34:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:35:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:36:10][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:37:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:38:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:39:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:40:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:41:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:42:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:43:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:44:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:45:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:46:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:47:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:48:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:49:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:50:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:51:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:52:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:53:11][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:54:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:55:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:56:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:57:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:58:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 02:59:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:00:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:01:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:02:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:03:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:04:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:05:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:06:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:07:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:08:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:09:12][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:10:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:11:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:12:10][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 03:12:10][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 03:12:10][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 03:12:11][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 03:12:12][__init__.py][line:45]: finish binance kline data job in 2.3733115196228027 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 03:12:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:13:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:14:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:15:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:16:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:17:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:18:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:19:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:20:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:21:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:22:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:23:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:24:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:25:13][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:26:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:27:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:28:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:29:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:30:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:31:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:32:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:33:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:34:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:35:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:36:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:37:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:38:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:39:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:40:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:41:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:42:14][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:43:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:44:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:45:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:46:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:47:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:48:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:49:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:50:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:51:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:52:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:53:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:54:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:55:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:56:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:57:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:58:15][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 03:59:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:00:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:01:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:02:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:03:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:04:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:05:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:06:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:07:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:08:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:09:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:10:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:11:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:12:10][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 04:12:10][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 04:12:11][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 04:12:12][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 04:12:13][__init__.py][line:45]: finish binance kline data job in 2.3929593563079834 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 04:12:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:13:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:14:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:15:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:16:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:17:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:18:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:19:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:20:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:21:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:22:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:23:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:24:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:25:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:26:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:27:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:28:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:29:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:30:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:31:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:32:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:33:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:34:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:35:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:36:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:37:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:38:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:39:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:40:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:41:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:42:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:43:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:44:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:45:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:46:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:47:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:48:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:49:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:50:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:51:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:52:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:53:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:54:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:55:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:56:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:57:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:58:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 04:59:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:00:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:01:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:02:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:03:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:04:19][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:05:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:06:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:07:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:08:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:09:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:10:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:11:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:12:11][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 05:12:11][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 05:12:11][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 05:12:13][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 05:12:14][__init__.py][line:45]: finish binance kline data job in 2.606980562210083 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 05:12:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:13:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:14:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:15:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:16:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:17:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:18:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:19:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:20:20][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:21:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:22:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:23:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:24:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:25:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:26:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:27:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:28:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:29:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:30:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:31:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:32:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:33:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:34:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:35:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:36:21][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:37:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:38:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:39:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:40:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:41:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:42:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:43:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:44:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:45:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:46:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:47:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:48:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:49:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:50:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:51:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:52:22][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:53:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:54:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:55:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:56:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:57:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:58:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 05:59:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:00:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:01:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:02:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:03:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:04:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:05:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:06:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:07:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:08:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:09:23][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:10:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:11:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:12:12][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 06:12:12][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 06:12:12][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 06:12:14][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 06:12:15][__init__.py][line:45]: finish binance kline data job in 2.943939208984375 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 06:12:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:13:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:14:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:15:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:16:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:17:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:18:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:19:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:20:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:21:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:22:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:23:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:24:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:25:24][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:26:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:27:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:28:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:29:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:30:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:31:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:32:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:33:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:34:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:35:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:36:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:37:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:38:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:39:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:40:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:41:25][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:42:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:43:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:44:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:45:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:46:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:47:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:48:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:49:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:50:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:51:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:52:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:53:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:54:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:55:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:56:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:57:26][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:58:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 06:59:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:00:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:01:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:02:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:03:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:04:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:05:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:06:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:07:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:08:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:09:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:10:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:11:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:12:12][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 07:12:12][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 07:12:13][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 07:12:14][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 07:12:15][__init__.py][line:45]: finish binance kline data job in 2.6074271202087402 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 07:12:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:13:27][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:14:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:15:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:16:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:17:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:18:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:19:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:20:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:21:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:22:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:23:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:24:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:25:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:26:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:27:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:28:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:29:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:30:28][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:31:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:32:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:33:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:34:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:35:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:36:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:37:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:38:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:39:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:40:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:41:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:42:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:43:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:44:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:45:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:46:29][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:47:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:48:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:49:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:50:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:51:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:52:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:53:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:54:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:55:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:56:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:57:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:58:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 07:59:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:00:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:01:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:02:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:03:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:04:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:05:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:06:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:07:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:08:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:09:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:10:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:11:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:12:13][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 08:12:13][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 08:12:13][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 08:12:15][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 08:12:16][__init__.py][line:45]: finish binance kline data job in 2.767805814743042 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 08:12:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:13:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:14:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:15:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:16:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:17:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:18:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:19:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:20:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:21:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:22:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:23:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:24:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:25:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:26:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:27:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:28:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:29:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:30:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:31:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:32:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:33:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:34:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:35:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:36:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:37:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:38:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:39:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:40:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:41:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:42:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:43:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:44:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:45:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:46:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:47:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:48:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:49:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:50:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:51:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:52:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:53:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:54:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:55:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:56:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:57:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:58:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 08:59:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:00:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:01:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:02:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:03:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:04:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:05:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:06:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:07:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:08:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:09:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:10:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:11:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:12:14][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 09:12:14][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 09:12:14][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 09:12:15][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 09:12:16][__init__.py][line:45]: finish binance kline data job in 2.4681522846221924 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 09:12:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:13:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:14:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:15:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:16:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:17:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:18:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:19:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:20:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:21:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:22:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:23:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:24:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:25:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:26:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:27:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:28:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:29:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:30:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:31:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:32:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:33:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:34:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:35:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:36:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:37:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:38:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:39:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:40:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:41:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:42:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:43:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:44:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:45:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:46:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:47:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:48:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:49:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:50:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:51:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:52:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:53:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:54:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:55:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:56:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:57:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:58:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 09:59:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:00:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:01:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:02:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:03:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:04:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:05:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:06:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:07:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:08:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:09:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:10:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:11:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:12:14][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 10:12:14][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 10:12:15][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 10:12:16][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 10:12:17][__init__.py][line:45]: finish binance kline data job in 2.5400052070617676 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 10:12:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:13:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:14:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:15:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:16:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:17:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:18:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:19:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:20:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:21:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:22:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:23:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:24:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:25:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:26:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:27:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:28:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:29:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:30:00][kline_service.py][line:96]: calculate success
-[INFO][Fri, 12 Nov 2021 10:30:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:31:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:32:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:33:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:34:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:35:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:36:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:37:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:38:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:39:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:40:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:41:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:42:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:43:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:44:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:45:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:46:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:47:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:48:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:49:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:50:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:51:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:52:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:53:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:54:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:55:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:56:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:57:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:58:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 10:59:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:00:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:01:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:02:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:03:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:04:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:05:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:06:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:07:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:08:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:09:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:10:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:11:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:12:15][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 11:12:15][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 11:12:15][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 11:12:16][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 11:12:17][__init__.py][line:45]: finish binance kline data job in 2.3075289726257324 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 11:12:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:13:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:14:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:15:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:16:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:17:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:18:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:19:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:20:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:21:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:22:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:23:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:24:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:25:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:26:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:27:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:28:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:29:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:30:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:31:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:32:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:33:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:34:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:35:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:36:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:37:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:38:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:39:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:40:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:41:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:42:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:43:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:44:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:45:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:46:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:47:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:48:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:49:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:50:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:51:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:52:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:53:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:54:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:55:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:56:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:57:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:58:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 11:59:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:00:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:01:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:02:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:03:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:04:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:05:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:06:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:07:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:08:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:09:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:10:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:11:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:12:16][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 12:12:16][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 12:12:16][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 12:12:17][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 12:12:18][__init__.py][line:45]: finish binance kline data job in 2.7659964561462402 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 12:12:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:13:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:14:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:15:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:16:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:17:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:18:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:19:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:20:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:21:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:22:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:23:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:24:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:25:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:26:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:27:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:28:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:29:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:30:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:31:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:32:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:33:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:34:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:35:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:36:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:37:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:38:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:39:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:40:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:41:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:42:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:43:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:44:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:45:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:46:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:47:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:48:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:49:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:50:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:51:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:52:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:53:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:54:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:55:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:56:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:57:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:58:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 12:59:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:00:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:01:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:02:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:03:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:04:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:05:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:06:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:07:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:08:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:09:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:10:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:11:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:12:16][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 13:12:16][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 13:12:17][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 13:12:18][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 13:12:19][__init__.py][line:45]: finish binance kline data job in 3.045640230178833 second,2 success, 0 failed
-[INFO][Fri, 12 Nov 2021 13:12:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:13:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:14:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:15:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:16:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:17:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:18:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:19:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:20:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:21:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:22:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:23:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:24:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:25:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:26:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:27:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:28:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:29:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:30:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:31:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:32:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:33:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:34:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:35:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:36:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:37:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:38:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:39:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:40:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:41:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:42:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:43:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:44:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:45:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:46:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:47:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:48:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:49:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:50:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:51:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:52:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:53:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:54:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:55:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:56:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:57:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:58:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 13:59:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 14:00:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 14:01:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 14:02:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 14:03:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 14:04:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 14:05:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
-[INFO][Fri, 12 Nov 2021 14:06:05][main_app.py][line:11]: System start!
-[INFO][Fri, 12 Nov 2021 14:06:05][kline_service.py][line:35]: Create kline service instance success and Start Kline Service...
-[INFO][Fri, 12 Nov 2021 14:06:05][kline_service.py][line:39]: Schedule manager start success...
-[INFO][Fri, 12 Nov 2021 14:06:05][kline_service.py][line:61]: Kline data job start from api-----------------------------------
-[INFO][Fri, 12 Nov 2021 14:06:05][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
-[INFO][Fri, 12 Nov 2021 14:06:06][__init__.py][line:130]: write 54 row btc|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 14:06:07][__init__.py][line:130]: write 54 row eth|usd|perp data to database sucess
-[INFO][Fri, 12 Nov 2021 14:06:08][__init__.py][line:45]: finish binance kline data job in 2.3180015087127686 second,2 success, 0 failed
+[INFO][Mon, 15 Nov 2021 14:06:54][kline_service.py][line:61]: Kline data job start from api-----------------------------------
+[INFO][Mon, 15 Nov 2021 14:06:54][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
+[INFO][Mon, 15 Nov 2021 14:06:54][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 14:06:55][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 14:06:56][__init__.py][line:45]: finish binance kline data job in 2.315546751022339 second,2 success, 0 failed
+[INFO][Mon, 15 Nov 2021 14:07:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:08:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:09:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:10:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:11:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:12:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:13:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:14:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:15:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:16:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:17:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:18:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:19:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:20:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:21:30][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:22:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:23:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:24:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:25:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:26:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:27:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:28:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:29:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:30:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:31:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:32:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:33:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:34:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:35:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:36:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:37:31][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:38:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:39:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:40:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:41:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:42:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:43:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:44:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:45:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:46:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:47:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:48:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:49:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:50:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:51:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:52:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:53:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:54:32][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:55:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:56:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:57:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:58:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 14:59:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:00:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:01:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:02:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:03:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:04:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:05:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:06:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:06:54][kline_service.py][line:61]: Kline data job start from api-----------------------------------
+[INFO][Mon, 15 Nov 2021 15:06:54][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
+[INFO][Mon, 15 Nov 2021 15:06:55][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 15:06:56][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 15:06:57][__init__.py][line:45]: finish binance kline data job in 3.0439505577087402 second,2 success, 0 failed
+[INFO][Mon, 15 Nov 2021 15:07:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:08:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:09:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:10:33][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:11:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:12:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:13:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:14:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:15:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:16:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:17:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:18:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:19:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:20:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:21:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:22:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:23:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:24:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:25:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:26:34][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:27:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:28:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:29:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:30:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:31:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:32:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:33:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:34:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:35:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:36:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:37:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:38:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:39:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:40:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:41:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:42:35][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:43:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:44:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:45:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:46:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:47:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:48:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:49:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:50:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:51:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:52:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:53:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:54:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:55:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:56:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:57:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:58:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 15:59:36][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:00:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:01:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:02:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:03:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:04:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:05:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:06:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:06:55][kline_service.py][line:61]: Kline data job start from api-----------------------------------
+[INFO][Mon, 15 Nov 2021 16:06:55][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
+[INFO][Mon, 15 Nov 2021 16:06:55][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 16:06:56][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 16:06:57][__init__.py][line:45]: finish binance kline data job in 2.455085277557373 second,2 success, 0 failed
+[INFO][Mon, 15 Nov 2021 16:07:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:08:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:09:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:10:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:11:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:12:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:13:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:14:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:15:37][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:16:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:17:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:18:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:19:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:20:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:21:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:22:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:23:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:24:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:25:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:26:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:27:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:28:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:29:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:30:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:31:38][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:32:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:33:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:34:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:35:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:36:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:37:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:38:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:39:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:40:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:41:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:42:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:43:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:44:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:45:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:46:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:47:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:48:39][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:49:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:50:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:51:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:52:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:53:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:54:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:55:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:56:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:57:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:58:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 16:59:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:00:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:01:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:02:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:03:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:04:40][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:05:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:06:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:06:56][kline_service.py][line:61]: Kline data job start from api-----------------------------------
+[INFO][Mon, 15 Nov 2021 17:06:56][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
+[INFO][Mon, 15 Nov 2021 17:06:56][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 17:06:57][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 17:06:58][__init__.py][line:45]: finish binance kline data job in 2.812716007232666 second,2 success, 0 failed
+[INFO][Mon, 15 Nov 2021 17:07:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:08:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:09:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:10:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:11:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:12:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:13:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:14:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:15:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:16:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:17:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:18:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:19:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:20:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:21:41][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:22:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:23:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:24:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:25:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:26:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:27:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:28:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:29:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:30:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:31:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:32:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:33:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:34:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:35:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:36:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:37:42][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:38:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:39:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:40:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:41:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:42:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:43:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:44:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:45:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:46:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:47:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:48:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:49:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:50:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:51:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:52:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:53:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:54:43][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:55:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:56:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:57:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:58:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 17:59:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:00:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:01:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:02:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:03:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:04:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:05:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:06:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:06:56][kline_service.py][line:61]: Kline data job start from api-----------------------------------
+[INFO][Mon, 15 Nov 2021 18:06:56][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
+[INFO][Mon, 15 Nov 2021 18:06:56][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 18:06:58][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 18:06:59][__init__.py][line:45]: finish binance kline data job in 2.3993465900421143 second,2 success, 0 failed
+[INFO][Mon, 15 Nov 2021 18:07:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:08:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:09:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:10:44][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:11:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:12:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:13:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:14:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:15:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:16:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:17:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:18:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:19:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:20:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:21:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:22:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:23:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:24:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:25:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:26:45][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:27:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:28:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:29:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:30:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:31:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:32:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:33:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:34:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:35:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:36:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:37:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:38:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:39:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:40:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:41:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:42:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:43:46][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:44:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:45:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:46:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:47:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:48:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:49:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:50:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:51:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:52:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:53:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:54:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:55:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:56:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:57:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:58:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 18:59:47][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:00:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:01:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:02:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:03:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:04:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:05:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:06:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:06:57][kline_service.py][line:61]: Kline data job start from api-----------------------------------
+[INFO][Mon, 15 Nov 2021 19:06:57][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
+[INFO][Mon, 15 Nov 2021 19:06:57][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 19:06:58][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 19:06:59][__init__.py][line:45]: finish binance kline data job in 2.4523746967315674 second,2 success, 0 failed
+[INFO][Mon, 15 Nov 2021 19:07:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:08:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:09:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:10:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:11:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:12:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:13:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:14:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:15:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:16:48][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:17:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:18:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:19:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:20:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:21:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:22:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:23:37][kline_service.py][line:95]: calculate success
+[INFO][Mon, 15 Nov 2021 19:23:40][mail_center.py][line:70]: send email success
+[INFO][Mon, 15 Nov 2021 19:23:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:24:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:25:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:26:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:27:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:28:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:29:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:30:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:31:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:32:49][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:33:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:34:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:35:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:36:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:37:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:38:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:39:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:40:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:41:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:42:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:43:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:44:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:45:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:46:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:47:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:48:50][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:49:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:50:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:51:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:52:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:53:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:54:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:55:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:56:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:57:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:58:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 19:59:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:00:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:01:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:02:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:03:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:04:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:05:51][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:06:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:06:58][kline_service.py][line:61]: Kline data job start from api-----------------------------------
+[INFO][Mon, 15 Nov 2021 20:06:58][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
+[INFO][Mon, 15 Nov 2021 20:06:58][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 20:06:59][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 20:07:00][__init__.py][line:45]: finish binance kline data job in 2.454746961593628 second,2 success, 0 failed
+[INFO][Mon, 15 Nov 2021 20:07:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:08:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:09:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:10:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:11:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:12:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:13:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:14:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:15:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:16:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:17:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:18:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:19:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:20:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:21:52][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:22:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:23:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:24:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:25:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:26:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:27:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:28:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:29:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:30:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:31:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:32:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:33:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:34:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:35:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:36:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:37:53][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:38:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:39:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:40:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:41:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:42:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:43:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:44:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:45:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:46:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:47:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:48:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:49:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:50:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:51:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:52:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:53:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:54:54][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:55:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:56:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:57:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:58:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 20:59:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:00:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:01:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:02:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:03:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:04:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:05:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:06:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:06:58][kline_service.py][line:61]: Kline data job start from api-----------------------------------
+[INFO][Mon, 15 Nov 2021 21:06:58][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
+[INFO][Mon, 15 Nov 2021 21:06:58][__init__.py][line:130]: write 60 row btc|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 21:07:00][__init__.py][line:130]: write 60 row eth|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 21:07:01][__init__.py][line:45]: finish binance kline data job in 2.5272767543792725 second,2 success, 0 failed
+[INFO][Mon, 15 Nov 2021 21:07:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:08:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:09:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:10:55][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:11:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:12:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:13:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:14:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:15:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:16:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:17:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:18:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:19:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:20:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:21:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:22:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:23:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:24:56][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:25:16][main_app.py][line:11]: System start!
+[INFO][Mon, 15 Nov 2021 21:25:16][kline_service.py][line:35]: Create kline service instance success and Start Kline Service...
+[INFO][Mon, 15 Nov 2021 21:25:16][kline_service.py][line:39]: Schedule manager start success...
+[INFO][Mon, 15 Nov 2021 21:25:16][kline_service.py][line:61]: Kline data job start from api-----------------------------------
+[INFO][Mon, 15 Nov 2021 21:25:16][exchange_manager.py][line:27]: Create Exchagne Manager instance success And start kline Job from api datasource...
+[INFO][Mon, 15 Nov 2021 21:25:16][__init__.py][line:130]: write 19 row btc|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:18][__init__.py][line:130]: write 19 row eth|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:19][__init__.py][line:130]: write 1499 row mana|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:20][__init__.py][line:130]: write 1499 row sand|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:22][__init__.py][line:130]: write 1499 row iotx|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:24][__init__.py][line:130]: write 1499 row bnb|usd|perp data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:26][__init__.py][line:130]: write 999 row btc|usdt|spot data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:27][__init__.py][line:130]: write 999 row eth|usdt|spot data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:28][__init__.py][line:130]: write 999 row BNB|usdt|spot data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:29][__init__.py][line:130]: write 999 row eth|btc|spot data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:30][__init__.py][line:130]: write 999 row bnb|btc|spot data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:31][__init__.py][line:130]: write 999 row dot|btc|spot data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:33][__init__.py][line:130]: write 999 row ada|btc|spot data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:34][__init__.py][line:130]: write 999 row btc|tusd|spot data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:35][__init__.py][line:130]: write 999 row eth|tusd|spot data to database sucess
+[INFO][Mon, 15 Nov 2021 21:25:36][__init__.py][line:45]: finish binance kline data job in 19.85296106338501 second,16 success, 0 failed
+[INFO][Mon, 15 Nov 2021 21:26:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:27:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:28:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:29:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:30:16][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:31:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:32:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:33:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:34:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:35:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:36:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:37:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:38:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:39:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:40:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:41:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:42:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:43:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:44:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:45:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:46:17][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:47:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:48:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:49:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:50:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1
+[INFO][Mon, 15 Nov 2021 21:51:18][kline_service.py][line:57]: Heart beat working ,Current Threading Num: 1

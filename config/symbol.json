@@ -14,6 +14,90 @@
         "assert": "eth",
         "to": "usd",
         "type": "perp"
+      },
+      {
+        "symbol": "MANAUSDT",
+        "assert": "mana",
+        "to": "usd",
+        "type": "perp"
+      },
+      {
+        "symbol": "SANDUSDT",
+        "assert": "sand",
+        "to": "usd",
+        "type": "perp"
+      },
+      {
+        "symbol": "IOTXUSDT",
+        "assert": "iotx",
+        "to": "usd",
+        "type": "perp"
+      },
+      {
+        "symbol": "MANAUSDT",
+        "assert": "mana",
+        "to": "usd",
+        "type": "perp"
+      },
+      {
+        "symbol": "BNBUSDT",
+        "assert": "bnb",
+        "to": "usd",
+        "type": "perp"
+      },
+      {
+        "symbol": "BTCUSDT",
+        "assert": "btc",
+        "to": "usdt",
+        "type": "spot"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "assert": "eth",
+        "to": "usdt",
+        "type": "spot"
+      },
+      {
+        "symbol": "BNBUSDT",
+        "assert": "BNB",
+        "to": "usdt",
+        "type": "spot"
+      },
+      {
+        "symbol": "ETHBTC",
+        "assert": "eth",
+        "to": "btc",
+        "type": "spot"
+      },
+      {
+        "symbol": "BNBBTC",
+        "assert": "bnb",
+        "to": "btc",
+        "type": "spot"
+      },
+      {
+        "symbol": "DOTBTC",
+        "assert": "dot",
+        "to": "btc",
+        "type": "spot"
+      },
+      {
+        "symbol": "ADABTC",
+        "assert": "ada",
+        "to": "btc",
+        "type": "spot"
+      },
+      {
+        "symbol": "BTCTUSD",
+        "assert": "btc",
+        "to": "tusd",
+        "type": "spot"
+      },
+      {
+        "symbol": "ETHTUSD",
+        "assert": "eth",
+        "to": "tusd",
+        "type": "spot"
       }
     ]
   }

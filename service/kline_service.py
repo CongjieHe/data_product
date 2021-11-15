@@ -67,13 +67,13 @@ class KlineService:
         client = DbModule()
         today = datetime.datetime.now().date()
         yesterday = today - datetime.timedelta(days=1)
+        yesterday_str = yesterday.strftime("%Y-%m-%d")
         for exchange in EXCHANGE_LIST:
             for item in EXCHANGE_LIST[exchange]["SYMBOLS"]:
                 single = {}
                 contract_type = item["type"]
                 info = "%s|%s|%s" % (item["assert"], item["to"], item["type"])
-                sql = """SELECT count(*) FROM %s WHERE info = '%s' AND "time" BETWEEN '%s 00:00:00' AND '%s 23:59:59'""" % (
-                    exchange, info, yesterday, yesterday)
+                sql = f"SELECT count(*) FROM {exchange} WHERE info = \'{info}\' AND time BETWEEN \'{yesterday_str} 00:00:00\' AND \'{yesterday_str} 23:59:59\';" 
                 result = client.execute(sql)
                 if result["result"]:
                     result = result["data"].fetchone()
@@ -90,7 +90,7 @@ class KlineService:
         data = data[["date", "exchange", "symbol", "contract_type", "amount"]]
         # data.to_sql(KLINE_DAILY_CHECK, client.engine, index=False, if_exists='append')
         client.close()
-        data = data[data["amount"] == 0]
+        data = data[data["amount"] != 0]
         data.reset_index(drop=True, inplace=True)
         logger_info.info("calculate success")
         self.create_kline_amount_table_png(data, yesterday)
@@ -103,7 +103,7 @@ class KlineService:
         if len(data) == 0:
             logger_error.error("data length is zero")
             return False
-        data = data[data["amount"] == 0]
+        # data = data[data["amount"] == 0]
         length = len(data)
         height = length * 0.2 + 2 if length > 10 else 5
         fig, ax = plt.subplots(1, 1, figsize=(8, height))
@@ -155,4 +155,5 @@ class KlineService:
 
 
 if __name__ == '__main__':
-    KlineService.csv_to_disk()
+    kline = KlineService()
+    kline.calculate_every_symbol_amount_per_day()
