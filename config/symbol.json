@@ -59,7 +59,7 @@
       },
       {
         "symbol": "BNBUSDT",
-        "assert": "BNB",
+        "assert": "bnb",
         "to": "usdt",
         "type": "spot"
       },
