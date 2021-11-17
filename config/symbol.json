@@ -34,12 +34,6 @@
         "type": "perp"
       },
       {
-        "symbol": "MANAUSDT",
-        "assert": "mana",
-        "to": "usd",
-        "type": "perp"
-      },
-      {
         "symbol": "BNBUSDT",
         "assert": "bnb",
         "to": "usd",
