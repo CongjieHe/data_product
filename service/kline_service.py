@@ -147,7 +147,7 @@ class KlineService:
                     outfile_path = os.path.join(outfolder, yesterday, exchange_name)
                     if not os.path.exists(outfile_path):
                         os.makedirs(outfile_path)
-                    sql = f"SELECT * FROM {exchange_name} WHERE info=\'{info}\' and time>=\'{yesterday}\' and time<\'{today}\'; "
+                    sql = f"SELECT * FROM {exchange_name} WHERE info=\'{info}\' and time>=\'{yesterday}\' and time<\'{today}\' order by time;"
                     with remote_engine.connect() as con:
                         res = pd.read_sql(sql, con)
                         res.drop(['id'], axis=1, inplace=True)
