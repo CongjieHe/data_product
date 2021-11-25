@@ -49,7 +49,6 @@ class DownOldData:
             type = item['type']
             self.next_start_time = self.start_time
             if type == 'perp':
-                continue
                 url = future_url
                 self.next_start_time = max(self.next_start_time.replace(year=2020), self.next_start_time)
             else:
