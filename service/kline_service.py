@@ -20,7 +20,7 @@ sys.path.append(os.getcwd())
 from config import *
 from utils.db_module import DbModule
 from config.db_config import db_setting
-from exchange_manager import ExchangeManager
+from exchange_tools.exchange_manager import ExchangeManager
 from utils.mail_center import EmailCenter
 from config.exchange_config import exchanges
 

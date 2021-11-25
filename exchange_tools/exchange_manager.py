@@ -3,9 +3,12 @@
 # @Author     : CongjieHe
 # @Email      : congjiehe95@gmail.com
 # @LastChange : 2021/11/9
-import threading
+import sys
+import os
+sys.path.append(os.getcwd())
 
-from exchange_factory import ExchangeFactory
+import threading
+from exchange_tools.exchange_factory import ExchangeFactory
 from config import *
 from utils.db_module import DbModule
 from config.exchange_config import exchanges

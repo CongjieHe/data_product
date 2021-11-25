@@ -6,37 +6,37 @@
       {
         "symbol": "BTCUSDT",
         "assert": "btc",
-        "to": "usd",
+        "to": "usdt",
         "type": "perp"
       },
       {
         "symbol": "ETHUSDT",
         "assert": "eth",
-        "to": "usd",
+        "to": "usdt",
         "type": "perp"
       },
       {
         "symbol": "MANAUSDT",
         "assert": "mana",
-        "to": "usd",
+        "to": "usdt",
         "type": "perp"
       },
       {
         "symbol": "SANDUSDT",
         "assert": "sand",
-        "to": "usd",
+        "to": "usdt",
         "type": "perp"
       },
       {
         "symbol": "IOTXUSDT",
         "assert": "iotx",
-        "to": "usd",
+        "to": "usdt",
         "type": "perp"
       },
       {
         "symbol": "BNBUSDT",
         "assert": "bnb",
-        "to": "usd",
+        "to": "usdt",
         "type": "perp"
       },
       {

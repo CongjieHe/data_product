@@ -3,6 +3,9 @@
 # @Author     : CongjieHe
 # @Email      : congjiehe95@gmail.com
 # @LastChange : 2021/11/9
+import sys
+import os
+sys.path.append(os.getcwd())
 
 from config import *
 from config.global_config import *
