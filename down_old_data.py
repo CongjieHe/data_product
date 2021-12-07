@@ -137,6 +137,6 @@ if __name__ == '__main__':
     down_old_data = DownOldData(start_time = dt.datetime(year=2018, month=1, day=1, hour=0, minute=0))
     for exchange in EXCHANGE_LIST:
         if exchange == 'binance':
-            down_old_data.down_binance_toDB()
-            # down_old_data.from_DB_to_csv('binance')
+            # down_old_data.down_binance_toDB()
+            down_old_data.from_DB_to_csv('binance')
        
